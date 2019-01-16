@@ -1,0 +1,23 @@
+// index.less
+// author:Yummy
+@import 'base.less';
+
+
+// UI稿件大小
+@ui_size: 640px;
+
+// 计算测量结果所占份数
+// 使用方法：
+// 直接用测量出来的px值，比上@copy
+// 例如：测量某盒子大小为 125px*348px 
+// 那么其长宽值为 125rem/@copy * 348rem/@copy
+
+// 份数:  -------   注意此处和前面的base.less文件中的@number为同一个，需要保持一致
+@number:20;
+
+// 测量结果所占份数
+@copy: @ui_size / @number;
+
+.w {
+    width: 1200px;
+}

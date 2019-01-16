@@ -1,0 +1,87 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  color: black;
+  font-family: '微软雅黑';
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img,
+input {
+  padding: 0;
+  border: 0 none;
+  outline-style: none;
+  vertical-align: bottom;
+}
+.clearfix::after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+@media only screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media only screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+@media only screen and (width: 568px) {
+  html {
+    font-size: 28.4px;
+  }
+}
+@media only screen and (width: 667px) {
+  html {
+    font-size: 33.35px;
+  }
+}
+@media only screen and (width: 736px) {
+  html {
+    font-size: 36.8px;
+  }
+}
+@media only screen and (width: 812px) {
+  html {
+    font-size: 40.6px;
+  }
+}
+@media only screen and (width: 1024px) {
+  html {
+    font-size: 51.2px;
+  }
+}
+@media only screen and (width: 1240px) {
+  html {
+    font-size: 62px;
+  }
+}

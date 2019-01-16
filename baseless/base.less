@@ -1,0 +1,143 @@
+// base.less
+// author:Yummy
+// how to import?  -  @import 'base.less';
+
+@font_size:12px;
+@font_color:black;
+@font_family:'微软雅黑';
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: @font_size;
+    color: @font_color;
+    font-family: @font_family;
+}
+
+a {
+    text-decoration: none;
+    color: @font_color;
+}
+
+img,input {
+    padding: 0;
+    border: 0 none;
+    outline-style: none;
+    vertical-align: bottom;
+}
+
+.clearfix::after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+
+// adaptation 适配各种设备
+// 320 375 414 360 640 411 731 823 568 667 414 736  812 768 1024 1366
+
+// 将设备分为多少份
+@number:20;
+
+// 320
+@media only screen and (width:320px) {
+    html {
+        font-size: 320px / @number;
+    }
+}
+
+// 375
+@media only screen and (width:375px) {
+    html {
+        font-size: 375px / @number;
+    }
+}
+
+// 414
+@media only screen and (width:414px) {
+    html {
+        font-size: 414px / @number;
+    }
+}
+
+// 568
+@media only screen and (width:568px) {
+    html {
+        font-size: 568px / @number;
+    }
+}
+
+// 667
+@media only screen and (width:667px) {
+    html {
+        font-size: 667px / @number;
+    }
+}
+
+// 736
+@media only screen and (width:736px) {
+    html {
+        font-size: 736px / @number;
+    }
+}
+
+// 812
+@media only screen and (width:812px) {
+    html {
+        font-size: 812px / @number;
+    }
+}
+
+// 1024
+@media only screen and (width:1024px) {
+    html {
+        font-size: 1024px / @number;
+    }
+}
+
+// 1240
+@media only screen and (width:1240px) {
+    html {
+        font-size: 1240px / @number;
+    }
+}
+
+
+// flex盒子居中
+// 针对拥有一个需要居中的子元素的盒子
+// 需要在父元素上设置
+
+    .center_flex () {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+// 绝对定位盒子居中
+
+    .center_translate() {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+// flex盒子
+
+    .flex (@direction:row; @justify:flex-start;) {
+        display: flex;
+        flex-direction: @direction;
+        justify-content: @justify;
+        // justify-content: flex-start / flex-end / center / space-between / space-around / space-evenly(ios);
+        // align-items: stretch / flex-start / flex-end /center;
+        // flex-wrap: nowrap / wrap;
+        // align-content: stretch / flex-start / flex-end / center / space-around / space-between;
+    }
+
+
+

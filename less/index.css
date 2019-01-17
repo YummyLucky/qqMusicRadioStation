@@ -46,16 +46,13 @@ input {
 }
 .header {
   height: 300px;
-  background-color: rgba(255, 192, 203, 0.329);
+  background-color: rgba(251, 255, 0, 0.171);
 }
 .header ul:first-child {
   float: left;
   height: 90px;
   display: flex;
   align-items: center;
-}
-.header ul:first-child li {
-  float: left;
 }
 .header ul:first-child li a {
   display: block;
@@ -81,15 +78,79 @@ input {
   color: white;
 }
 .header ul:last-child {
-  display: flex;
   float: right;
+  display: flex;
   height: 90px;
   align-items: center;
+  font-size: 16px;
 }
-.header ul:last-child a {
+.header ul:last-child li:first-child {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.header ul:last-child li:first-child a {
   display: block;
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-@media only screen and (max-width: 1240px) {
+.header ul:last-child li:first-child a input {
+  display: block;
+  padding-left: 10px;
+  line-height: 30px;
+  height: 30px;
+  color: #999999;
+  width: 209px;
+  float: left;
+}
+.header ul:last-child li:first-child a .iconfonts {
+  display: block;
+  float: right;
+  background-color: #fff;
+  margin-top: -30px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #666666;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 700;
+}
+.header ul:last-child li:first-child a .iconfonts:hover {
+  color: #31c27c;
+}
+.header ul:last-child li:nth-child(2) a {
+  display: block;
+  width: 75px;
+  text-align: center;
+}
+.header ul:last-child li:nth-child(2) a:hover {
+  color: #31c27c;
+}
+.header ul:last-child li:nth-child(3) a {
+  font-size: 14px;
+  display: block;
+  height: 40px;
+  width: 120px;
+  background-color: #31c27c;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+.header ul:last-child li:nth-child(3) a:hover {
+  background-color: #2ba76b;
+}
+@media only screen and (max-width: 1340px) {
+  .wraper {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
   .wraper {
     width: 900px;
     margin: 0 auto;

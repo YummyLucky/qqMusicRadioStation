@@ -2,66 +2,143 @@
 // author:Yummy
 @import 'base.less';
 
-    .wraper {
-        width: 1200px;
-        margin: 0 auto;
-    }
-    .header {
-        height: 300px;
-        background-color: rgba(255, 192, 203, 0.329);
-        ul:first-child{
-            float: left;
-            height: 90px;
-            display: flex;
-            align-items: center;
-            li{
-                a {display: block;}
-                float: left;
+.wraper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 300px;
+    background-color: rgba(251, 255, 0, 0.171);
+    ul:first-child{
+        float: left;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        li{
+            a {display: block;}
+        }
+        li:first-child {
+            margin-right: 20px;
+        }
+        .main_nav {
+            a {
+                color: black;
+                width: 90px;
+                line-height: 90px;
+                text-align: center;
+                font-size: 18px;
             }
-            li:first-child {
-                margin-right: 20px;
+            a:hover {
+                // background-color: #31c27c;
+                color: #31c27c;
             }
-            .main_nav {
-                a {
-                    color: black;
-                    width: 90px;
-                    line-height: 90px;
-                    text-align: center;
-                    font-size: 18px;
-                }
-                a:hover {
-                    // background-color: #31c27c;
-                    color: #31c27c;
-                }
-                .greenbg {
-                    background-color: #31c27c;
+            .greenbg {
+                background-color: #31c27c;
+                color: white;
+                &:hover {
                     color: white;
+                }
+            }
+        }
+    }
+    ul:last-child {
+        float: right;
+        display: flex;
+        height: 90px;
+        align-items: center;
+        font-size: 16px;
+        li:first-child {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            a {
+                display: block;
+                border: 1px solid #bdbdbd;
+                border-radius: 3px;
+                height: 30px;
+                position: absolute;
+                right: 0;
+                top: 0;
+                input {
+                    display: block;
+                    padding-left: 10px;
+                    line-height: 30px;
+                    height: 30px;
+                    color: #999999;
+                    width: 209px;
+                    float: left;
+                }
+                .iconfonts {
+                    display: block;
+                    float: right;
+                    background-color: #fff;
+                    margin-top: -30px;
+                    width: 30px;
+                    height: 30px;
+                    font-size: 20px;
+                    color: #666666;
+                    text-align: center;
+                    line-height: 30px;
+                    font-weight: 700;
                     &:hover {
-                        color: white;
+                        color: #31c27c;
                     }
                 }
             }
         }
-        ul:last-child {
-            display: flex;
-            float: right;
-            height: 90px;
-            align-items: center;
-            a {
+        li:nth-child(2) {
+            a{
                 display: block;
+                width: 75px;
+                text-align: center;
+                &:hover {
+                    color: #31c27c;
+                }
             }
-            li {
+        }
+        li:nth-child(3) {
+            a{
+                font-size: 14px;
+                display: block;
+                height: 40px;
+                width: 120px;
+                background-color: #31c27c;
+                color: white;
+                text-align: center;
+                line-height: 40px;
+                &:hover {
+                    background-color: #2ba76b;
+                }
             }
         }
     }
+}
 
 
 
-    
-// 1024
-@media only screen and (max-width:1240px) {
+
+
+// 1340
+@media only screen and (max-width:1340px) {
+    .wraper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}// 1024
+@media only screen and (max-width:1024px) {
     .wraper {
         width: 900px;
         margin: 0 auto;
+    }
+    .header {
+        ul:last-child {
+            li:first-child {
+                a {
+                    span:first-child {
+                        // display: none;
+                    }
+                }
+            }
+        }
     }
 }

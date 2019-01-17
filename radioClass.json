@@ -1,4 +1,4 @@
-{"radioStation":[
+var receive = {"radioStation":[
     {
         "class":"热门",
         "radios":[

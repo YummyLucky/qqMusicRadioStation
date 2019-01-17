@@ -45,8 +45,9 @@ input {
   margin: 0 auto;
 }
 .header {
-  height: 300px;
+  height: 90px;
   background-color: rgba(251, 255, 0, 0.171);
+  border-bottom: 1px solid #ccc;
 }
 .header ul:first-child {
   float: left;
@@ -95,30 +96,35 @@ input {
   border-radius: 3px;
   height: 30px;
   position: absolute;
+  padding: 1px 3px;
   right: 0;
   top: 0;
 }
 .header ul:last-child li:first-child a input {
   display: block;
   padding-left: 10px;
-  line-height: 30px;
-  height: 30px;
+  line-height: 28px;
+  height: 28px;
   color: #999999;
-  width: 209px;
+  width: 220px;
   float: left;
+  border-radius: 3px;
+  box-sizing: border-box;
 }
 .header ul:last-child li:first-child a .iconfonts {
   display: block;
   float: right;
   background-color: #fff;
-  margin-top: -30px;
-  width: 30px;
-  height: 30px;
+  margin-top: -28px;
+  width: 26px;
+  height: 26px;
   font-size: 20px;
   color: #666666;
   text-align: center;
-  line-height: 30px;
+  line-height: 22px;
   font-weight: 700;
+  border-radius: 3px;
+  box-sizing: border-box;
 }
 .header ul:last-child li:first-child a .iconfonts:hover {
   color: #31c27c;
@@ -150,9 +156,27 @@ input {
     margin: 0 auto;
   }
 }
+@media only screen and (max-width: 1150px) {
+  .header ul:last-child li:first-child a input {
+    width: 0;
+    transition: width 0.5s linear;
+  }
+  .header ul:last-child li:first-child a:hover > input {
+    width: 220px;
+    transition: width 0.5s linear;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .wraper {
     width: 900px;
     margin: 0 auto;
+  }
+  .header ul:last-child li:first-child a input {
+    width: 0;
+    transition: width 0.5s linear;
+  }
+  .header ul:last-child li:first-child a:hover > input {
+    width: 230px;
+    transition: width 0.5s linear;
   }
 }

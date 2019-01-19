@@ -230,7 +230,6 @@ input {
 .activeCreateMode .right {
   margin-left: 260px;
   flex: 1;
-  background-color: white;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -260,18 +259,19 @@ input {
   margin-bottom: 50px;
   color: #999999;
 }
-.activeCreateMode .right div#modleTitle {
+.activeCreateMode .right div.modleTitle {
   width: 100%;
   display: flex;
 }
-.activeCreateMode .right div#modleTitle span:first-child {
+.activeCreateMode .right div.modleTitle span:first-child {
   display: block;
   float: left;
   font-size: 15px;
   margin-right: 10px;
   height: 20px;
+  margin-bottom: 0px;
 }
-.activeCreateMode .right div#modleTitle span:last-child {
+.activeCreateMode .right div.modleTitle span:last-child {
   flex: 1;
   display: block;
   float: left;

@@ -1,4 +1,4 @@
-var receive = {"radioStation":[
+var activeCreateModeItems = {"radioStation":[
     {
         "class":"热门",
         "radios":[
@@ -136,31 +136,31 @@ var receive = {"radioStation":[
             {
                 "name":"个性电台",
                 "playCount":"1014.5万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             }
         ]
@@ -171,61 +171,61 @@ var receive = {"radioStation":[
             {
                 "name":"个性电台",
                 "playCount":"1014.5万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             }
         ]
@@ -236,79 +236,79 @@ var receive = {"radioStation":[
             {
                 "name":"个性电台",
                 "playCount":"1014.5万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             }
         ]
@@ -319,103 +319,103 @@ var receive = {"radioStation":[
             {
                 "name":"个性电台",
                 "playCount":"1014.5万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             }
         ]
@@ -426,91 +426,91 @@ var receive = {"radioStation":[
             {
                 "name":"个性电台",
                 "playCount":"1014.5万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             }
         ]
@@ -521,67 +521,67 @@ var receive = {"radioStation":[
             {
                 "name":"个性电台",
                 "playCount":"1014.5万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             }
         ]
@@ -592,31 +592,31 @@ var receive = {"radioStation":[
             {
                 "name":"个性电台",
                 "playCount":"1014.5万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             }
         ]
@@ -627,37 +627,37 @@ var receive = {"radioStation":[
             {
                 "name":"个性电台",
                 "playCount":"1014.5万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             },
             {
                 "name":"热歌",
                 "playCount":"229.4万",
-                "img":"img路径",
+                "img":"img/rm21.jpg",
                 "music":"mp3路径"
             }
         ]

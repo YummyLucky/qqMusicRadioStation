@@ -58,7 +58,7 @@ var radioStationClassesTops = new Array
 //   // $('#'+thisModleId).offset().top.appendTo(radioStationClassesTops)
 //   radioStationClassesTops.push($('#'+thisModleId).offset().top)
 // }
-setTimeout(function(){
+setInterval(function(){
   // 获取当前.right类名模块下的电台分类名的标签高度，设置左边当前模块的.active类效果
   for (let i = 0; i < modleTitlesIds.length; i++) {
     const thisModleId = modleTitlesIds[i];
@@ -67,7 +67,7 @@ setTimeout(function(){
     // $('#'+thisModleId).offset().top.appendTo(radioStationClassesTops)
     radioStationClassesTops.push($('#'+thisModleId).offset().top)
   }
-},100)
+},2000)
 
 console.log(radioStationClassesTops)
 // 左侧列表在页面中固定
@@ -105,6 +105,3 @@ $(window).scroll(function () {
 })
 
 
-if (1 && 1) {
-  console.log(1)
-}

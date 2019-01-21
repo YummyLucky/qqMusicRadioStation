@@ -30,9 +30,8 @@ for (let i = 0; i < activeCreateModeItems.radioStation.length; i++) {
     // console.log(thisRadio)
 
     // 操作DOM元素
-    $('<div><a href="" music="' + thisRadio.music + '"><img src="' + thisRadio.img + '" alt=""><i></i><i></i><i></i></a><a href="" music="' + thisRadio.music + '">' + thisRadio.name + '</a><span>' + thisRadio.playCount + '</span></div>')
+    $('<div><a href="javascript:;" music="' + thisRadio.music + '"><img src="' + thisRadio.img + '" alt=""><i></i><i></i><i></i></a><a href="javascript:;" music="' + thisRadio.music + '">' + thisRadio.name + '</a><span>' + thisRadio.playCount + '</span></div>')
       .appendTo($right)
-    // 插件、类库、框架
     // 用jQuery添加占位元素，宽不变，高为0，保证每行4个，占位，让每个电台分类最后的电台位置靠左展示
 
   }
@@ -44,64 +43,60 @@ for (let i = 0; i < activeCreateModeItems.radioStation.length; i++) {
     }
   }
   // 将当前分类的id存入数组modleTitles中
-  modleTitlesIds.push('modleTitle_' + i );
-
+  modleTitlesIds.push('modleTitle_' + i);
 }
 
-console.log(modleTitlesIds)
+
+var footerOffset
 // 获取当前.right类名模块下的电台分类名的标签高度，设置左边当前模块的.active类效果
 var radioStationClassesTops = new Array
-// for (let i = 0; i < modleTitlesIds.length; i++) {
-//   const thisModleId = modleTitlesIds[i];
-//   console.log(thisModleId)
-//   // console.log($('#'+thisModleId).offset().top)
-//   // $('#'+thisModleId).offset().top.appendTo(radioStationClassesTops)
-//   radioStationClassesTops.push($('#'+thisModleId).offset().top)
-// }
-setInterval(function(){
-  // 获取当前.right类名模块下的电台分类名的标签高度，设置左边当前模块的.active类效果
+setInterval(function () {
+  radioStationClassesTops = []
   for (let i = 0; i < modleTitlesIds.length; i++) {
     const thisModleId = modleTitlesIds[i];
-    console.log(thisModleId)
-    // console.log($('#'+thisModleId).offset().top)
-    // $('#'+thisModleId).offset().top.appendTo(radioStationClassesTops)
-    radioStationClassesTops.push($('#'+thisModleId).offset().top)
+    radioStationClassesTops.push($('#' + thisModleId).offset().top)
   }
-},2000)
+  footerOffset = $('.footer').offset().top;
+  // console.log(footerOffset)
+}, 2000)
 
-console.log(radioStationClassesTops)
 // 左侧列表在页面中固定
 var $left = $('.left')
-// console.log($left.scrollTop())
+
+
+
 // 页面滚动事件
 $(window).scroll(function () {
-  if (window.scrollY >= 180) {
-    $left.css('position', 'fixed').css('top', '50px')
-    $('.rightBottomFixed li:first-child a').css('display','block')
+
+  // 左侧.left的位置
+  let leftChangeFixedHeight = footerOffset - activeCreateModeItems.radioStation.length*80
+  if (window.scrollY >= 180 && window.scrollY <leftChangeFixedHeight) {
+    $left.css('position', 'fixed').css('top', '10px')
+    $('.rightBottomFixed li:first-child a').css('display', 'block')
+  }
+  else if (window.scrollY >= leftChangeFixedHeight){
+    $left.css('position', 'absolute').css('top', leftChangeFixedHeight-10)
+    $('.rightBottomFixed li:first-child a').css('display', 'block')
   }
   else {
     $left.css('position', 'absolute').css('top', '')
-    $('.rightBottomFixed li:first-child a').css('display','none')
+    $('.rightBottomFixed li:first-child a').css('display', 'none')
   }
-  // console.log(window.scrollY)
 
-  // console.log(radioStationClassesTops)
+  // 左侧.left对应右侧.right是哪个标题，改变自己相对应的标题导航颜色
   for (let i = 0; i < radioStationClassesTops.length; i++) {
-    // console.log(i)
-      // console.log($('.left ul:last-child a').eq(i)[0])
-      // console.log(window.screenTop)
-      // console.log(radioStationClassesTops[i])
-    if (window.scrollY >= radioStationClassesTops[i]-200 && window.scrollY < radioStationClassesTops[i+1]-200) {
+    let lineIndex
+    if (window.scrollY >= radioStationClassesTops[i] - 200 && window.scrollY < radioStationClassesTops[i + 1] - 200) {
       $('.left ul:last-child a').eq(i).addClass('activeContent').parent().siblings().find('a').removeClass('activeContent')
-      console.log($('.left ul:last-child a').eq(i).addClass('activeContent')[0])
+      lineIndex =4*i+2
+      $('.left ul:first-child li:nth-child('+lineIndex+')').addClass('activeLine').siblings().removeClass('activeLine')
     }
-    if(i === radioStationClassesTops.length-1){
-      if (window.scrollY >= radioStationClassesTops[i]-200) {
+    if (i === radioStationClassesTops.length - 1) {
+      if (window.scrollY >= radioStationClassesTops[i] - 200) {
         $('.left ul:last-child a').eq(i).addClass('activeContent').parent().siblings().find('a').removeClass('activeContent')
+        lineIndex =4*i+2
+        $('.left ul:first-child li:nth-child('+lineIndex+')').addClass('activeLine').siblings().removeClass('activeLine')
       }
     }
-    
   }
 })
-
-
